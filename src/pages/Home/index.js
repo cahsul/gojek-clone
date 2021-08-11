@@ -3,6 +3,7 @@ import {Image, Text, TextInput, View} from 'react-native';
 import Searchbar from './searchbar';
 import BottomNavigation from './bottom-navigation';
 import Gopay from './gopay';
+import MainFeature from './main-feature';
 
 class Home extends Component {
   render() {
@@ -11,6 +12,7 @@ class Home extends Component {
         <View style={{flex: 1, backgroundColor: 'white'}}>
           <Searchbar />
           <Gopay />
+          <MainFeature />
         </View>
         <BottomNavigation />
       </View>
